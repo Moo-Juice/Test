@@ -1,0 +1,12 @@
+{
+  "name": "backend-boilerplate",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "dotnet build app/backend.sln",
+    "start": "cd app/backend && dotnet run",
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^9.7.0"
+  }
+}
